@@ -1,9 +1,9 @@
-import Logotitle from 'C:/Users/New/Desktop/Portfolio/portfolio/src/assets/images/logo-s-removebg_ccexpress.png'
+import Logotitle from '../../assets/images/logo-s-removebg_ccexpress.png'
 import './index.scss'
 import {Link} from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetter'
 import { useEffect, useState } from 'react'
-import Logo from 'C:/Users/New/Desktop/Portfolio/portfolio/src/Components/Home/Logo'
+import Logo from '../Home/Logo'
 import {Loader} from 'react-loaders'
 
 const Home = () => {
